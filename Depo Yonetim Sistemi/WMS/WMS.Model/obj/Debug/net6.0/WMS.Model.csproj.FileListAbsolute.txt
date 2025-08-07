@@ -1,0 +1,16 @@
+C:\Users\alisa\source\repos\WMS\WMS.Model\bin\Debug\net6.0\WMS.Model.deps.json
+C:\Users\alisa\source\repos\WMS\WMS.Model\bin\Debug\net6.0\WMS.Model.dll
+C:\Users\alisa\source\repos\WMS\WMS.Model\bin\Debug\net6.0\WMS.Model.pdb
+C:\Users\alisa\source\repos\WMS\WMS.Model\bin\Debug\net6.0\Infrastructure.dll
+C:\Users\alisa\source\repos\WMS\WMS.Model\bin\Debug\net6.0\Infrastructure.pdb
+C:\Users\alisa\source\repos\WMS\WMS.Model\obj\Debug\net6.0\WMS.Model.csproj.AssemblyReference.cache
+C:\Users\alisa\source\repos\WMS\WMS.Model\obj\Debug\net6.0\WMS.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alisa\source\repos\WMS\WMS.Model\obj\Debug\net6.0\WMS.Model.AssemblyInfoInputs.cache
+C:\Users\alisa\source\repos\WMS\WMS.Model\obj\Debug\net6.0\WMS.Model.AssemblyInfo.cs
+C:\Users\alisa\source\repos\WMS\WMS.Model\obj\Debug\net6.0\WMS.Model.csproj.CoreCompileInputs.cache
+C:\Users\alisa\source\repos\WMS\WMS.Model\obj\Debug\net6.0\WMS.Model.sourcelink.json
+C:\Users\alisa\source\repos\WMS\WMS.Model\obj\Debug\net6.0\WMS.Model.csproj.Up2Date
+C:\Users\alisa\source\repos\WMS\WMS.Model\obj\Debug\net6.0\WMS.Model.dll
+C:\Users\alisa\source\repos\WMS\WMS.Model\obj\Debug\net6.0\refint\WMS.Model.dll
+C:\Users\alisa\source\repos\WMS\WMS.Model\obj\Debug\net6.0\WMS.Model.pdb
+C:\Users\alisa\source\repos\WMS\WMS.Model\obj\Debug\net6.0\ref\WMS.Model.dll

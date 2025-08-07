@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alisa\\source\\repos\\WMS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0049EF5A-79AA-4BB4-9CA8-4FEB6EA57971}|WMS.WebAPI\\WMS.WebAPI.csproj|c:\\users\\alisa\\source\\repos\\wms\\wms.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0049EF5A-79AA-4BB4-9CA8-4FEB6EA57971}|WMS.WebAPI\\WMS.WebAPI.csproj|solutionrelative:wms.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F6A316A-1B90-4DE6-AA33-9FAC57E328CB}|WMS.Business\\WMS.Business.csproj|c:\\users\\alisa\\source\\repos\\wms\\wms.business\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F6A316A-1B90-4DE6-AA33-9FAC57E328CB}|WMS.Business\\WMS.Business.csproj|solutionrelative:wms.business\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 672,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alisa\\source\\repos\\WMS\\WMS.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "WMS.WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\alisa\\source\\repos\\WMS\\WMS.WebAPI\\Program.cs",
+              "RelativeToolTip": "WMS.WebAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T10:44:29.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\alisa\\source\\repos\\WMS\\WMS.Business\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "WMS.Business\\ServiceCollectionExtensions.cs",
+              "ToolTip": "C:\\Users\\alisa\\source\\repos\\WMS\\WMS.Business\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "WMS.Business\\ServiceCollectionExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T10:43:59.11Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 672,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

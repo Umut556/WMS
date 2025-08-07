@@ -1,0 +1,20 @@
+﻿@model IEnumerable<Product>
+
+<table>
+    <thead>
+        <tr>
+            <th>Ürün Adı</th>
+            <th>Fiyatı</th>
+            <!-- Diğer sütunlar buraya eklenebilir -->
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.Adi</td>
+                <!-- Diğer sütunlar buraya eklenebilir -->
+            </tr>
+        }
+    </tbody>
+</table>

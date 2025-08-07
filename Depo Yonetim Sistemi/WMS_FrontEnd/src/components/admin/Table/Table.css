@@ -1,0 +1,46 @@
+/* TableComponent.css */
+
+/* Buton Stili */
+.download-btn {
+  background-color: #4CAF50;
+  /* Yeşil arka plan */
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Buton üzerine gelindiğinde renk değişimi */
+.download-btn:hover {
+  background-color: #45a049;
+}
+
+/* Durum sütunu için renkli yazılar */
+.status {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Tabloyu daha şık hale getirmek için stil ekledik */
+.Table {
+  margin-top: 20px;
+}
+
+.TableContainer {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+h3 {
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+}

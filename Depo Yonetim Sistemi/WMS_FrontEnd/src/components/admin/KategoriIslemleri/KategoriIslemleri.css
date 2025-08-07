@@ -1,0 +1,279 @@
+.kategori-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0; /* Removed centering */
+}
+
+.status {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+}
+
+.kategori-list {
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 16px;
+    list-style-type: none;
+}
+
+.kategori-card {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.kategori-card:hover {
+    transform: translateY(-5px); /* Slightly lift the card on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Expand the shadow */
+    background-color: #f1f1f1; /* Slightly change the background color */
+}
+
+.kategori-info {
+    margin-bottom: 12px;
+}
+
+.kategori-actions {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.kategori-update-button {
+    background-color: #ffa500;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 5px;
+}
+
+.kategori-update-button:hover {
+    background-color: #e59400;
+}
+
+.kategori-delete-button {
+    background-color: #f44336;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 5px;
+}
+
+.kategori-delete-button:hover {
+    background-color: #d73227;
+}
+
+
+/* Modal for Update Form */
+.kategori-update-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+.kategori-update-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    width: 600px;
+    text-align: left;
+    max-height: 80vh;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+
+.kategori-update-content input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.kategori-update-submit-button, .kategori-add-submit-button  {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.kategori-update-submit-button:hover {
+    background-color: #0056b3;
+}
+
+/* Deletion Confirmation */
+.kategori-delete-confirm-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.kategori-delete-confirm-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    text-align: center;
+}
+
+.kategori-delete-confirm-button,
+.kategori-delete-cancel-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.kategori-delete-confirm-button {
+    background-color: #f44336;
+    color: white;
+}
+
+.kategori-delete-confirm-button:hover {
+    background-color: #d73227;
+}
+
+.kategori-delete-cancel-button {
+    background-color: #007bff;
+    color: white;
+}
+
+.kategori-delete-cancel-button:hover {
+    background-color: #0056b3;
+}
+
+/* Form Inputs and Labels */
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+/* Modal for Add Form */
+.kategori-add-button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.kategori-add-button:hover {
+    background-color: #d73227;
+}
+
+.kategori-modal {
+    position: fixed; /* Sabit pozisyon */
+    top: 50%; /* Yükseklik merkezleme */
+    left: 50%; /* Genişlik merkezleme */
+    transform: translate(-50%, -50%); /* Gerçek merkezleme */
+    background: white; /* Beyaz arka plan */
+    border-radius: 8px; /* Yuvarlatılmış köşeler */
+    padding: 20px; /* İç boşluk */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Gölge efekti */
+    z-index: 1000; /* Diğer içeriklerin üstünde */
+    width: 400px; /* Genişlik */
+    max-width: 90%; /* Küçük ekranlarda genişliği sınırla */
+}
+
+.kategori-modal-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.kategori-modal input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.kategori-modal button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.kategori-close-button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.kategori-close-button:hover {
+    background-color: #d73227;
+}
+
+.kategori-button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+}
+
+.kategori-update-submit-button, .kategori-add-submit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+}

@@ -1,0 +1,79 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WMS.MvcUI
+build_property.RootNamespace = WMS.MvcUI
+build_property.ProjectDir = C:\Users\alisa\source\repos\WMS\WMS.Presantation\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\alisa\source\repos\WMS\WMS.Presantation
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/alisa/source/repos/WMS/WMS.Presantation/Areas/Admin/Views/AdminLogin/AdminLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Mb2dpblxBZG1pbkxvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alisa/source/repos/WMS/WMS.Presantation/Areas/Admin/Views/AdminPage/AdminPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5QYWdlXEFkbWluUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alisa/source/repos/WMS/WMS.Presantation/Areas/Admin/Views/AdminPage/_NavBar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5QYWdlXF9OYXZCYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alisa/source/repos/WMS/WMS.Presantation/Areas/Admin/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alisa/source/repos/WMS/WMS.Presantation/Areas/Admin/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alisa/source/repos/WMS/WMS.Presantation/Areas/Calisan/Views/CalisanLogin/CalisanLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2FsaXNhblxWaWV3c1xDYWxpc2FuTG9naW5cQ2FsaXNhbkxvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alisa/source/repos/WMS/WMS.Presantation/Areas/Calisan/Views/CalisanPage/CalisanPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2FsaXNhblxWaWV3c1xDYWxpc2FuUGFnZVxDYWxpc2FuUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alisa/source/repos/WMS/WMS.Presantation/Areas/Magaza/Views/MagazaLogin/MagazaLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFnYXphXFZpZXdzXE1hZ2F6YUxvZ2luXE1hZ2F6YUxvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alisa/source/repos/WMS/WMS.Presantation/Areas/Magaza/Views/MagazaPage/MagazaPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFnYXphXFZpZXdzXE1hZ2F6YVBhZ2VcTWFnYXphUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alisa/source/repos/WMS/WMS.Presantation/Views/Login/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alisa/source/repos/WMS/WMS.Presantation/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alisa/source/repos/WMS/WMS.Presantation/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alisa/source/repos/WMS/WMS.Presantation/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alisa/source/repos/WMS/WMS.Presantation/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alisa/source/repos/WMS/WMS.Presantation/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-bwumitze8e

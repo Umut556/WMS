@@ -1,0 +1,19 @@
+﻿using Infrastructure.Model;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace WMS.Model.Dtos.Bolme
+{
+    public class BolmeGetDto : IDto
+    {
+        public int BolmeId { get; set; }
+        //public int BlokID { get; set; }
+        public string? BlokAdi { get; set; }
+        //public int RafID { get; set; }
+        public string? RafAdi { get; set; }
+        public string? BolmeAdi { get; set; }
+    }
+}

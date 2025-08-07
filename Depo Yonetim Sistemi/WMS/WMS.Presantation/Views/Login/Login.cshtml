@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Custom styles for this template -->
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .login-container {
+            max-width: 400px;
+            margin: 0 auto;
+            margin-top: 100px;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .login-title {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .login-button {
+            font-size: 18px;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+            .login-button:hover {
+                opacity: 0.8;
+            }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div class="login-container">
+                    <h2 class="login-title">Hoşgeldiniz</h2>
+                    <button id="magazaButton" class="btn btn-primary btn-block login-button" onclick="openLoginForm('store')">Mağaza Girişi</button>
+                    <button id="calisanButton" class="btn btn-primary btn-block login-button" onclick="openLoginForm('calisan')">Çalışan Girişi</button>
+                    <button id="adminButton" class="btn btn-primary btn-block login-button" onclick="openLoginForm('admin')">Yönetici Girişi</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- JavaScript -->
+    <script>
+        function openLoginForm(userType) {
+            window.location.href = '/' + userType + '/login'; // Burada her kullanıcı türü için uygun yönlendirme yapabilirsiniz.
+        }
+
+        // Yönetici girişi butonunu AdminLogin.cshtml sayfasına yönlendir
+        document.getElementById('adminButton').addEventListener('click', function () {
+            console.log("Yönetici girişi butonuna tıklandı.");
+            window.location.href = '/Admin/AdminLogin'; // Yönetici girişi için uygun URL
+        });
+
+        document.getElementById('calisanButton').addEventListener('click', function () {
+            console.log("Calisan girişi butonuna tıklandı.");
+            window.location.href = '/Calisan/CalisanLogin'; // calisan girişi için uygun URL
+        });
+
+        document.getElementById('magazaButton').addEventListener('click', function () {
+            console.log("Magaza girişi butonuna tıklandı.");
+            window.location.href = '/Magaza/MagazaLogin'; // magaza girişi için uygun URL
+        });
+    </script>
+</body>
+</html>

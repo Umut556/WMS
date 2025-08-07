@@ -1,0 +1,9 @@
+C:\Users\alisa\source\repos\WMS\WebApplication2\obj\Debug\net6.0\WebApplication2.csproj.AssemblyReference.cache
+C:\Users\alisa\source\repos\WMS\WebApplication2\obj\Debug\net6.0\WebApplication2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alisa\source\repos\WMS\WebApplication2\obj\Debug\net6.0\WebApplication2.AssemblyInfoInputs.cache
+C:\Users\alisa\source\repos\WMS\WebApplication2\obj\Debug\net6.0\WebApplication2.AssemblyInfo.cs
+C:\Users\alisa\source\repos\WMS\WebApplication2\obj\Debug\net6.0\WebApplication2.csproj.CoreCompileInputs.cache
+C:\Users\alisa\source\repos\WMS\WebApplication2\obj\Debug\net6.0\WebApplication2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\alisa\source\repos\WMS\WebApplication2\obj\Debug\net6.0\WebApplication2.RazorAssemblyInfo.cache
+C:\Users\alisa\source\repos\WMS\WebApplication2\obj\Debug\net6.0\WebApplication2.RazorAssemblyInfo.cs
+C:\Users\alisa\source\repos\WMS\WebApplication2\obj\Debug\net6.0\WebApplication2.sourcelink.json

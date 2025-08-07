@@ -1,0 +1,298 @@
+.magaza-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 1200px;
+}
+
+.status {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+}
+
+.magaza-list {
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 16px;
+    list-style-type: none;
+}
+
+.magaza-card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    background: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.magaza-card:hover {
+    transform: translateY(-5px); /* Kartı hafifçe yukarı kaldırır */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Gölgeyi büyütür */
+    background-color: #f1f1f1; /* Arka plan rengini hafifçe değiştirir */
+}
+
+.magaza-info {
+    margin-bottom: 12px;
+}
+
+.magaza-actions {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.magaza-button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+}
+
+.magaza-detail-button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 5px;
+}
+
+.magaza-detail-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+.magaza-detail-button:active {
+    background-color: #004494;
+    transform: scale(0.98); /* Slightly shrink on click */
+}
+
+
+.magaza-add-button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.magaza-update-button {
+    background-color: #ffa500;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 5px;
+}
+
+.magaza-update-button:hover {
+    background-color: #e59400;
+}
+
+.magaza-delete-button {
+    background-color: #f44336;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 5px;
+}
+
+.magaza-delete-button:hover {
+    background-color: #d73227;
+}
+
+/* Modal Genel Tasarımı */
+.magaza-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.magaza-modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    text-align: left;
+}
+
+.magaza-close-button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.magaza-close-button:hover {
+    background-color: #d73227;
+}
+
+.magaza-close-button:hover {
+    background-color: #d73227;
+}
+
+/* Form Giriş Alanları */
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+/* Yeni Mağaza Ekleme ve Güncelleme Formu */
+.magaza-update-content, .magaza-add-content {
+    width: 100%;
+}
+
+.magaza-update-submit-button, .magaza-add-submit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.magaza-update-submit-button:hover, .magaza-add-submit-button:hover {
+    background-color: #0056b3;
+}
+
+/* Silme Onayı */
+.magaza-delete-confirm-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.magaza-delete-confirm-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    text-align: center;
+}
+
+.magaza-delete-confirm-button,
+.magaza-delete-cancel-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.magaza-delete-confirm-button {
+    background-color: #f44336;
+    color: white;
+}
+
+.magaza-delete-confirm-button:hover {
+    background-color: #d73227;
+}
+
+.magaza-delete-cancel-button {
+    background-color: #007bff;
+    color: white;
+}
+
+.magaza-delete-cancel-button:hover {
+    background-color: #0056b3;
+}
+
+.magaza-detail-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Ortada hizalama */
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    width: 100vw;
+    height: 100vh;
+}
+
+.magaza-detail-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    text-align: left;
+}
+
+/* Güncelleme Modalı (Detay gibi Ortada) */
+.magaza-update-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Ortada hizalama */
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Güncelleme Modal İçeriği */
+.magaza-update-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    text-align: left;
+}

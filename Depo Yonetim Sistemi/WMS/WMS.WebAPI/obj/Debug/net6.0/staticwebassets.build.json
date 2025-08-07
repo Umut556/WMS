@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "+0kM/qvuaeGS3CT0O93D4RKwpn5MK1M2Tbf6MzNLtOk=",
+  "Source": "WMS.WebAPI",
+  "BasePath": "_content/WMS.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
